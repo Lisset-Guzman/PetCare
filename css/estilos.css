@@ -339,6 +339,10 @@ esto es para el menu
 
     }
 
+    .header__icono{
+        display: none;
+    }
+
 
    
 }
