@@ -175,6 +175,7 @@ esto es para el menu
 .footer-dire{
     margin-left: 30cm;
     margin-bottom: 2cm;}
+
 .footer{
     padding: 2rem 1rem;
     display: flex;
@@ -197,6 +198,7 @@ esto es para el menu
     font-weight: 70;
     text-align: center;
 }
+
 .header__icono{
     display: none;
 }
