@@ -203,6 +203,7 @@ esto es para el menu
     display: none;
 }
 
+
 /* ABOUT US */
 /* Falta agregar los checkboxs */
 .section, .text-image{
@@ -339,6 +340,8 @@ h2{
 
 @media screen and (max-width: 1024px) {
 
+   
+
     .parts {
         text-transform:uppercase
     }
@@ -379,7 +382,9 @@ h2{
    
 }
 @media screen and (max-width: 600px) {
-   .navv{
+   
+
+    .navv{
        width: 127%;
    }
 
