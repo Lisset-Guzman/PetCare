@@ -25,13 +25,14 @@
     
     <section>
         <header>
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="navbar-brand  navbar-toggler-icon ">
-                         <a class="navbar-toggler ">
-                         <img src="../img/logo.jpeg" width="30" height="30" alt="logo"></a>
-                        </div>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark text-end">
                         <div class="container-fluid">
-                          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <a class="navbar-brand navbar-toggler-icon">
+                              <img src="../img/logo.jpeg" alt="" width="30" height="24">
+                            </a>
+                          </div>
+                        <div class="container-fluid">
+                          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                             <div class="navbar-nav text-dark">
                               <a class="nav-link" href="../index.html">Home</a>
                               <a class="nav-link" href="./aboutUs.html">About Us</a>
@@ -73,14 +74,12 @@
                   <label for="Email">Email:</label>
                   <input type="email" class="form-control" id="Email" placeholder="Ingrese su email..">
                 </div>
+                
                 <div class="form-group form-control-lg">
                     <label for="number">Numero de telefono:</label>
                     <input type="number" class="form-control" id="number" placeholder="Ingrese su numero de telefono..">
                   </div>
-                </div class="form-group form-control-lg">
-                 <label for="text">Comentarios</label>
-                 <input type="text"  class="form-control" id="text" placeholder="Ingrese sus comentarios..." >
-               <div>
+
                <div class="form-group form-control-lg">
                 <label for="Servicios">Seleccione el servicio</label>
                     <select class="form-control" id="Servicios">
@@ -89,8 +88,12 @@
                       <option>Guarderia</option>
                       <option>Alojamiento</option>
                     </select>  
+                    <div class="form-group form-control-lg">
+                        <label for="Comentarios">Comentarios:</label>
+                        <input type="comentarios" class="form-control" id="Comentarios" placeholder="Ingrese su comentario..">
+                      </div>
                 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit"  style="background-color: #ff487f;" class="btn btn-primary">Submit</button>
                 </div class="form-group">
                     
                 
