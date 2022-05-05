@@ -1,0 +1,440 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    background: #e3ebed;
+}
+.body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e3ebed;
+}
+.body-header{
+    color: #393f70;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-size: smaller;
+}
+ul {
+    list-style: none;
+}
+.navv{
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navv{
+    width: 100%;
+}
+.nav_lista{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+
+}
+.nav_items a{
+    text-decoration: none;
+    color: #393d72;
+}
+/* Preguntar porque se pinta todo y no solo uno
+esto es para el menu
+.nav_lista:hover{
+    background: #ff487f; 
+} */
+.parts{
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.part-left, .part-right{
+    width: 50%;
+}
+.part-left{
+    padding: 1rem;
+}
+
+.slogan{
+    color: #ff487f;
+    font-size: smaller;
+    /* margin-left: 150px;
+    padding-top: 100px; */
+
+} 
+.slogan-1{
+    color: #3b3f74;
+    font-size: 20;
+    /* margin-left: 150px; */
+}
+
+.part-right{
+    display: flex;
+    justify-content: center;
+    
+}
+.part-right img{
+    max-width: 600px;
+}
+
+.turnos{
+    color: white;
+    border: solid 5px #ff487f;
+    background-color: #ff487f;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    width: 100px;
+    height: 34px;
+    overflow: hidden;
+    text-align: justify;
+    margin-left: 2cm;
+    
+}
+.telefono{
+    color: white;
+    border: solid 5px #90c322;
+    background-color: #90c322;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    height: 34px;
+    overflow: hidden;
+    margin-left: 1cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+
+}
+
+
+.aqc{
+    color: white;
+    border: solid 1px #ff487f;
+    background-color: #ff487f;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    height: 34px;
+    overflow: hidden;
+    text-align: justify;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.juegos{
+    color: white;
+    border: solid 1px #ead4a4;
+    background-color: #ead4a4;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    width: 120px;
+    height: 34px;
+    overflow: hidden;
+    text-align: justify;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-right: 1cm;
+}
+.comida{
+    color: white;
+    border: solid 1px #90c322;
+    background-color: #90c322;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    width: 120px;
+    height: 34px;
+    overflow: hidden;
+    text-align: justify;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+
+}
+
+
+
+.footer-dire{
+    margin-left: 30cm;
+    margin-bottom: 2cm;}
+
+.footer{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+.footer-h1{
+    font-weight: 300;
+
+}
+.footer-redes{
+    text-decoration: none;
+    color: #393d72;
+}
+
+.footer__copy{
+    font-weight: 70;
+    text-align: center;
+}
+
+.header__icono{
+    display: none;
+}
+
+
+/* ABOUT US */
+/* Falta agregar los checkboxs */
+.section, .text-image{
+    width: 50%;
+}
+.section{
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.text-image{
+    display: flex;
+    justify-content: end;
+}
+.text-image{
+    max-width: 600px;
+}
+.text-title{
+    text-align: center;
+    padding-top: 5rem;
+}
+.text-checkbox{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+/* SERVICES */
+/* Falta agregar iconos redes y correo y numero arriba */
+
+.imagenes-1{
+    grid-area: imagen1;
+}
+.grid-text-1{
+    grid-area: text1;
+    
+}
+.imagenes-2{
+    grid-area: imagen2;
+}
+.grid-text-2{
+    grid-area: text2;
+    padding-left: 5rem;
+    padding-right: 10rem;
+}
+.imagenes-3{
+    grid-area: imagen3;
+    
+}
+.grid-text-3{
+    grid-area: text3;
+    padding-left: 5rem;
+}
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "text1 imagen1"
+    "imagen2 text2"
+    "text3 imagen3";
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 5fr);
+    grid-template-rows: repeat(3, 4fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.imagenes-title{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:  10% 10% 10% 10%;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    justify-content: center;
+    align-content: center;
+}
+.grid-title{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-decoration: underline;
+
+}
+.grid-hijo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid #555;
+}
+/* REVIEW */
+h2{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.caja {
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+    width: 200%;
+    height: 500px;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom,lightblue, #9abaf5, lightblue);
+}
+
+.caja-imagen{
+    padding-left:8rem;
+    transform: translateX(300px);
+    transform: translateY(70px);
+}
+.caja-text{
+    padding-right: 15rem;
+    padding-bottom: 15rem;
+    justify-content: justify;
+    text-align: justify;
+    transform:translate(400px, -150px)
+}
+
+/* Turnos */
+.btn btn-primary{
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .parts {
+        text-transform:uppercase
+    }
+    /* .part-right, .part-left{
+        width: 100%;
+
+    } */
+    .actividades{
+        display: flex;
+        flex-flow: row nowrap;
+        align-content: auto;
+       
+
+    }
+    .header__icono{
+        display: none;
+    }
+    .part-below{
+        display: flex;
+        flex-flow: column nowrap;
+        margin-top: 1rem;
+    }
+    .parts {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        flex-direction: column; 
+    }
+    .turnos{
+        margin-bottom: 1rem;
+
+    }
+
+    .header__icono{
+        display: none;
+    }
+
+
+   
+}
+@media screen and (max-width: 600px) {
+   
+
+    .navv{
+       width: 127%;
+   }
+
+    .nav {
+        flex-direction: row;
+
+    }
+
+    .nav_lista {
+        display: none;
+    }
+
+    .header__icono {
+        display: block;
+        font-size: 32px;
+        color: #ff487f;
+    }
+
+    .parts {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        flex-direction: column; 
+    }
+
+    .part-left, .part-right {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .actividades{
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: auto;
+
+    }
+    .part-below{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .turnos{
+        margin-bottom: 1cm;
+        margin-top: 1cm;
+    }
+    
+    .juegos{
+        margin-left: 1cm;
+    }
+    .comida{
+        margin-left: 1cm;
+    }
+    
+    
+}
