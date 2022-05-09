@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.navv {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .navv .navv {
+    width: 100%; }
+  .navv .nav_lista {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem; }
+  .navv .nav_items a {
+    text-decoration: none;
+    color: #393d72; }
