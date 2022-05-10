@@ -2,8 +2,20 @@
     padding: 0;
     margin: 0;
 }
-
+.body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e3ebed;
+    .body-header{
+        color: #393f70;
+        margin-top: 15px;
+        margin-left: 80px;
+        font-size: smaller;
+    }
+}
 
 @import "index";
 @import "aboutUs";
+@import "services";
 @import "turnos";
+@import "review";

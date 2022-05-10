@@ -1,0 +1,72 @@
+.a-que-nos-dedicamos{
+    .imagenes-title{
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+    .imagenes-1{
+        grid-area: imagen1;
+    }
+    .grid-text-1{
+        grid-area: text1;
+        
+    }
+    .imagenes-2{
+        grid-area: imagen2;
+    }
+    .grid-text-2{
+        grid-area: text2;
+        padding-left: 5rem;
+        padding-right: 10rem;
+    }
+    .imagenes-3{
+        grid-area: imagen3;
+        
+    }
+    .grid-text-3{
+        grid-area: text3;
+        padding-left: 5rem;
+    }
+    #grilla{
+        display: grid;
+        grid-template-areas: 
+        "text1 imagen1"
+        "imagen2 text2"
+        "text3 imagen3";
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: repeat(2, 5fr);
+        grid-template-rows: repeat(3, 4fr);
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+
+.grid-section-title{
+    .grid-title{
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        text-decoration: underline;
+    
+    }
+}
+.grid{
+    display: grid;
+    grid-template-columns:  10% 10% 10% 10%;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows: repeat(6, 50px);
+    justify-content: center;
+    align-content: center;
+    .grid-hijo {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: 2px solid #555;
+    } 
+}
