@@ -2,6 +2,16 @@
   padding: 0;
   margin: 0; }
 
+.body {
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e3ebed; }
+  .body .body-header {
+    color: #393f70;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-size: smaller; }
+
 .navv {
   height: 100%;
   width: 100%;
@@ -23,3 +33,56 @@
   .navv .nav_items a {
     text-decoration: none;
     color: #393d72; }
+
+.parts {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; }
+  .parts .part-left, .parts .part-right {
+    width: 50%; }
+  .parts .part-left {
+    padding: 1rem; }
+  .parts .part-right {
+    display: flex;
+    justify-content: center; }
+  .parts .part-right img {
+    max-width: 600px; }
+
+.slogan {
+  color: #ff487f;
+  font-size: smaller;
+  /* margin-left: 150px;
+    padding-top: 100px; */ }
+  .slogan .slogan-1 {
+    color: #3b3f74;
+    font-size: 20;
+    /* margin-left: 150px; */ }
+
+.part-below .turnos {
+  color: white;
+  border: solid 5px #ff487f;
+  background-color: #ff487f;
+  padding: 5px;
+  display: inline-block;
+  font-size: 16px;
+  width: 100px;
+  height: 34px;
+  overflow: hidden;
+  text-align: justify;
+  margin-left: 2cm; }
+
+.part-below .telefono {
+  color: white;
+  border: solid 5px #90c322;
+  background-color: #90c322;
+  padding: 5px;
+  display: inline-block;
+  font-size: 16px;
+  width: 200px;
+  height: 34px;
+  overflow: hidden;
+  margin-left: 1cm;
+  margin-top: 0cm;
+  margin-bottom: 0cm; }

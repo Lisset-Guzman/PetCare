@@ -39,3 +39,67 @@
         color: #393d72;
     }
 }
+.parts{
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .part-left, .part-right{
+        width: 50%;
+    }
+    .part-left{
+        padding: 1rem;
+    }
+    .part-right{
+    display: flex;
+    justify-content: center;
+    }
+    .part-right img{
+    max-width: 600px;
+    }
+}
+.slogan{
+    color: #ff487f;
+    font-size: smaller;
+    /* margin-left: 150px;
+    padding-top: 100px; */
+    .slogan-1{
+        color: #3b3f74;
+        font-size: 20;
+        /* margin-left: 150px; */
+    }
+
+} 
+.part-below{
+    .turnos{
+        color: white;
+        border: solid 5px #ff487f;
+        background-color: #ff487f;
+        padding: 5px;
+        display: inline-block;
+        font-size: 16px;
+        width: 100px;
+        height: 34px;
+        overflow: hidden;
+        text-align: justify;
+        margin-left: 2cm;
+        
+    }
+    .telefono{
+        color: white;
+        border: solid 5px #90c322;
+        background-color: #90c322;
+        padding: 5px;
+        display: inline-block;
+        font-size: 16px;
+        width: 200px;
+        height: 34px;
+        overflow: hidden;
+        margin-left: 1cm;
+        margin-top: 0cm;
+        margin-bottom: 0cm;
+    
+    }
+    
+}
