@@ -1,0 +1,31 @@
+.caja-review{
+    h2{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .caja {
+        border: 3px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        max-width: 1000px;
+        width: 200%;
+        height: 500px;
+        padding: 1rem;
+        background-image: linear-gradient(to bottom,lightblue, #9abaf5, lightblue);
+    }
+    
+    .caja-imagen{
+        padding-left:8rem;
+        transform: translateX(300px);
+        transform: translateY(70px);
+    }
+    .caja-text{
+        padding-right: 15rem;
+        padding-bottom: 15rem;
+        justify-content: justify;
+        text-align: justify;
+        transform:translate(400px, -150px)
+    }
+}
