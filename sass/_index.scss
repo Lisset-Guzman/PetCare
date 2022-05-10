@@ -10,6 +10,12 @@
     }
 }
 
+.logo{
+    background: #e3ebed;
+    .header__icono{
+        display: none;
+    }
+}
 
 .navv{
     height: 100%;
@@ -22,6 +28,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    ul {
+        list-style: none;
+    }
     .navv{
         width: 100%;
     }
@@ -100,6 +109,80 @@
         margin-top: 0cm;
         margin-bottom: 0cm;
     
+    }    
+}
+.actividades{
+    .aqc{
+        color: white;
+        border: solid 1px #ff487f;
+        background-color: #ff487f;
+        padding: 5px;
+        display: inline-block;
+        font-size: 16px;
+        width: 200px;
+        height: 34px;
+        overflow: hidden;
+        text-align: justify;
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
     }
     
+    .juegos{
+        color: white;
+        border: solid 1px #ead4a4;
+        background-color: #ead4a4;
+        padding: 5px;
+        display: inline-block;
+        font-size: 16px;
+        width: 120px;
+        height: 34px;
+        overflow: hidden;
+        text-align: justify;
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+        margin-right: 1cm;
+    }
+    .comida{
+        color: white;
+        border: solid 1px #90c322;
+        background-color: #90c322;
+        padding: 5px;
+        display: inline-block;
+        font-size: 16px;
+        width: 120px;
+        height: 34px;
+        overflow: hidden;
+        text-align: justify;
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+    
+    }
+}
+.footer{
+.footer-dire{
+    margin-left: 30cm;
+    margin-bottom: 2cm;
+}
+.footer{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-h1{
+    font-weight: 300;
+
+}
+.footer-redes{
+    text-decoration: none;
+    color: #393d72;
+}
+.footer__copy{
+    font-weight: 70;
+    text-align: center;
+}
+
 }

@@ -1,4 +1,4 @@
-*{ 
+/* *{ 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -201,7 +201,7 @@ esto es para el menu
 
 .header__icono{
     display: none;
-}
+} */
 
 
 /* ABOUT US */
