@@ -70,3 +70,29 @@
         border: 2px solid #555;
     } 
 }
+.footer{
+    .footer-dire{
+        margin-left: 30cm;
+        margin-bottom: 2cm;
+    }
+    .footer{
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-h1{
+        font-weight: 300;
+    
+    }
+    .footer-redes{
+        text-decoration: none;
+        color: #393d72;
+    }
+    .footer__copy{
+        font-weight: 70;
+        text-align: center;
+    }
+    
+    }
