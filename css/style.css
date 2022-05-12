@@ -17,30 +17,6 @@
   .logo .header__icono {
     display: none; }
 
-.navv {
-  height: 100%;
-  width: 100%;
-  padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; }
-  .navv ul {
-    list-style: none; }
-  .navv .navv {
-    width: 100%; }
-  .navv .nav_lista {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 1rem; }
-  .navv .nav_items a {
-    text-decoration: none;
-    color: #393d72; }
-
 .parts {
   min-height: 100vh;
   max-width: 1200px;
@@ -165,20 +141,20 @@
   text-align: center;
   padding-top: 5rem; }
 
-.section {
+.section-text {
   min-height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center; }
-  .section .section, .section .text-image {
+  .section-text .section, .section-text .text-image {
     width: 50%; }
-  .section .text-image {
+  .section-text .text-image {
     display: flex;
     justify-content: end; }
-  .section .text-image {
+  .section-text .text-image {
     max-width: 600px; }
-  .section .text-checkbox {
+  .section-text .text-checkbox {
     margin-top: 5rem;
     margin-bottom: 2rem; }
 
