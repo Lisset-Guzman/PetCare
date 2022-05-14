@@ -131,9 +131,11 @@
 
 .footer .footer-redes {
   text-decoration: none;
-  color: #393d72; }
+  color: #393d72;
+  margin-left: 1rem;
+  margin-right: 1rem; }
 
-.footer .footer__copy {
+.footer .footer_copy {
   font-weight: 70;
   text-align: center; }
 
