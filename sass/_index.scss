@@ -71,6 +71,13 @@
     
     }    
 }
+$estilos: (
+  color: #ff487f,
+  centro: center,
+  tFuente: 16px,
+  1cm : 1cm
+);
+
 .actividades{
     .aqc{
         color: white;
@@ -85,8 +92,7 @@
         text-align: justify;
         margin-top: 1cm;
         margin-bottom: 1cm;
-        margin-left: 1cm;
-        margin-right: 1cm;
+        margin-right: 15px;
     }
     
     .juegos{
@@ -102,7 +108,7 @@
         text-align: justify;
         margin-top: 1cm;
         margin-bottom: 1cm;
-        margin-right: 1cm;
+        margin-right: 15px;
     }
     .comida{
         color: white;
@@ -148,3 +154,4 @@
     }
     
     }
+    
