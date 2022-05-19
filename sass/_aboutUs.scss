@@ -1,31 +1,7 @@
-.text-title{
-    text-align: center;
-    padding-top: 5rem;
+.caja{
+    border-top: 5px;
 }
-.section-text{
-    min-height: 100vh;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    
-    .section, .text-image{
-        width: 50%;
-    }
-    .text-image{
-        display: flex;
-        justify-content: end;
-    }
-    .text-image{
-        max-width: 600px;
-    }
-    
-    .text-checkbox{
-        margin-top: 5rem;
-        margin-bottom: 2rem;
-    }
 
-}
 .footer{
     .footer-dire{
         margin-left: 30cm;
