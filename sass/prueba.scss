@@ -5,13 +5,17 @@
 .body{
     font-family: 'Merriweather', serif;
     font-family: 'Roboto', sans-serif;
-    background-color: #e3ebed;
+    background-image: url("../img/background.jpg");
     .body-header{
         color: #393f70;
         margin-top: 15px;
         margin-left: 80px;
         font-size: smaller;
     }
+}
+.footer{
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 @import "index";
