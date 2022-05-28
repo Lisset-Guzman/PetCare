@@ -2,10 +2,7 @@
     .parts {
         text-transform:uppercase
     }
-    /* .part-right, .part-left{
-        width: 100%;
-
-    } */
+    
     .actividades{
         display: flex;
         flex-flow: row nowrap;
@@ -19,7 +16,6 @@
     .part-below{
         display: flex;
         flex-flow: column nowrap;
-        margin-top: 1rem;
     }
     .parts {
         padding-top: 4rem;
@@ -29,10 +25,6 @@
     .turnos{
         margin-bottom: 1rem;
 
-    }
-
-    .header__icono{
-        display: none;
     }
    
 }

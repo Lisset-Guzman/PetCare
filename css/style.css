@@ -24,34 +24,27 @@
 .parts {
   min-height: 100vh;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
   align-items: center; }
-  .parts .part-left, .parts .part-right {
-    width: 50%; }
   .parts .part-left {
     padding: 1rem; }
   .parts .part-right {
     display: flex;
     justify-content: center; }
-  .parts .part-right img {
-    max-width: 600px; }
 
 .slogan {
   color: #ff487f;
-  font-size: smaller;
-  /* margin-left: 150px;
-    padding-top: 100px; */ }
+  font-size: smaller; }
   .slogan .slogan-1 {
     color: #3b3f74;
-    font-size: 20;
-    /* margin-left: 150px; */ }
+    font-size: 20; }
 
 .part-below .turnos {
   color: white;
   border: solid 1px #ff487f;
   background-color: #ff487f;
-  padding: 5px;
+  padding: 2px;
   display: inline-block;
   font-size: 16px;
   width: 100px;
@@ -64,7 +57,7 @@
   color: white;
   border: solid 1px #90c322;
   background-color: #90c322;
-  padding: 5px;
+  padding: 2px;
   display: inline-block;
   font-size: 16px;
   width: 200px;
@@ -151,17 +144,20 @@
   text-decoration: underline; }
 
 .a-que-nos-dedicamos .imagenes-1 {
-  grid-area: imagen1; }
+  grid-area: imagen1;
+  padding-right: 5rem; }
 
 .a-que-nos-dedicamos .grid-text-1 {
-  grid-area: text1; }
+  grid-area: text1;
+  padding-left: 5rem; }
 
 .a-que-nos-dedicamos .imagenes-2 {
-  grid-area: imagen2; }
+  grid-area: imagen2;
+  padding-left: 2rem; }
 
 .a-que-nos-dedicamos .grid-text-2 {
   grid-area: text2;
-  padding-left: 5rem;
+  padding-left: 2rem;
   padding-right: 10rem; }
 
 .a-que-nos-dedicamos .imagenes-3 {

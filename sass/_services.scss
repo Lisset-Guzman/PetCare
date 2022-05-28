@@ -8,17 +8,20 @@
     }
     .imagenes-1{
         grid-area: imagen1;
+        padding-right: 5rem;
     }
     .grid-text-1{
         grid-area: text1;
+        padding-left: 5rem;
         
     }
     .imagenes-2{
         grid-area: imagen2;
+        padding-left: 2rem;
     }
     .grid-text-2{
         grid-area: text2;
-        padding-left: 5rem;
+        padding-left: 2rem;
         padding-right: 10rem;
     }
     .imagenes-3{

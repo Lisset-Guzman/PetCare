@@ -11,12 +11,12 @@
 .parts{
     min-height: 100vh;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     align-items: center;
-    .part-left, .part-right{
-        width: 50%;
-    }
+    // .part-left, .part-right{
+    //     width: 50%;
+    // }
     .part-left{
         padding: 1rem;
     }
@@ -24,9 +24,7 @@
     display: flex;
     justify-content: center;
     }
-    .part-right img{
-    max-width: 600px;
-    }
+    
 }
 .slogan{
     color: #ff487f;
@@ -43,7 +41,7 @@
         color: white;
         border: solid 1px #ff487f;
         background-color: #ff487f;
-        padding: 5px;
+        padding: 2px;
         display: inline-block;
         font-size: 16px;
         width: 100px;
@@ -57,7 +55,7 @@
         color: white;
         border: solid 1px #90c322;
         background-color: #90c322;
-        padding: 5px;
+        padding: 2px;
         display: inline-block;
         font-size: 16px;
         width: 200px;
