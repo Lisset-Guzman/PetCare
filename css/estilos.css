@@ -27,6 +27,11 @@
 
     }
    
+    .grid-hijo {
+        overflow: scroll;
+        } 
+    
+
 }
 
 @media screen and (max-width: 600px) {
@@ -77,7 +82,7 @@
     }
     .turnos{
         margin-bottom: 1cm;
-        margin-top: 1cm;
+      
     }
     
     .juegos{
@@ -86,6 +91,10 @@
     .comida{
         margin-left: 1cm;
     }
+    .grid-hijo {
+        overflow: scroll;
+        
+        } 
     
     
 }
